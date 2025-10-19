@@ -1,0 +1,45 @@
+{
+  "basics": {
+    "name": "Shivansh Tiwari",
+    "title": "Java Full Stack Developer",
+    "email": "shivansh@example.com",
+    "phone": "+91-XXXXXXXXXX",
+    "summary": "Passionate developer building MindivaOS and related projects."
+  },
+  "sections": [
+    {
+      "id": "projects",
+      "title": "Projects",
+      "items": [
+        {
+          "id":"proj1",
+          "title":"MindivaOS",
+          "role":"Lead Developer",
+          "startDate":"2024-07",
+          "endDate":"2025-07",
+          "summary":"AI-first personal OS integrating PromptCore & NeuroGraph"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "items": [
+        {
+          "id":"edu1",
+          "degree":"B.Tech Computer Science",
+          "institution":"XYZ University",
+          "startDate":"2020",
+          "endDate":"2024",
+          "summary":"GPA: 8.6"
+        }
+      ]
+    },
+    {
+      "id":"skills",
+      "title":"Skills",
+      "items": ["Java","Spring Boot","React","MySQL","Docker"]
+    }
+  ],
+  "settings": { "theme": "light", "fontSize": 14 }
+}
