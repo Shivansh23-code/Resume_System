@@ -120,15 +120,15 @@ const ResumePreview = ({ formData, isPDF = false }) => {
             <table key={idx} className="education-table">
               <tbody>
                 <tr>
-                  <td>Graduation:</td>
+                  <td>Academic Status:</td>
                   <td>{sanitizeText(edu.graduation)}</td>
                 </tr>
                 <tr>
-                  <td>Schooling:</td>
+                  <td>Institute / School:</td>
                   <td>{sanitizeText(edu.schooling)}</td>
                 </tr>
                 <tr>
-                  <td>Scores:</td>
+                  <td>(GPA Out Of 10):</td>
                   <td>{sanitizeText(edu.scores)}</td>
                 </tr>
                 <tr>
