@@ -174,9 +174,9 @@ const EditorPanel = ({ formData = {}, setFormData, theme, setTheme }) => {
         {educationList.length === 0 && <p className="empty-text">No education added yet</p>}
         {educationList.map((edu, idx) => (
           <div key={idx} className="education-item-editor">
-            <input type="text" placeholder="Graduation" value={edu.graduation || ""} onChange={(e) => handleEducationChange(idx, "graduation", e.target.value)} className="editor-field"/>
-            <input type="text" placeholder="Schooling" value={edu.schooling || ""} onChange={(e) => handleEducationChange(idx, "schooling", e.target.value)} className="editor-field"/>
-            <input type="text" placeholder="Scores" value={edu.scores || ""} onChange={(e) => handleEducationChange(idx, "scores", e.target.value)} className="editor-field"/>
+            <input type="text" placeholder="Academic Status" value={edu.graduation || ""} onChange={(e) => handleEducationChange(idx, "graduation", e.target.value)} className="editor-field"/>
+            <input type="text" placeholder="Institute / School" value={edu.schooling || ""} onChange={(e) => handleEducationChange(idx, "schooling", e.target.value)} className="editor-field"/>
+            <input type="text" placeholder="Scores (GPA Out Of 10)" value={edu.scores || ""} onChange={(e) => handleEducationChange(idx, "scores", e.target.value)} className="editor-field"/>
             <input type="text" placeholder="Years" value={edu.years || ""} onChange={(e) => handleEducationChange(idx, "years", e.target.value)} className="editor-field"/>
             <button className="btn-remove-project" onClick={() => removeEducation(idx)}>Remove</button>
           </div>
